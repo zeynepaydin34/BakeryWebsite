@@ -1,55 +1,71 @@
-# FIRIN ÜRÜNLERİ SATIŞ SİTESİ
+# Fırın Ürünleri Satış Sitesi
 
-**Özet**  
-Bu web sitesi tasarımı, farklı dünya mutfaklarının fırın lezzetlerini bir araya getiren bir platform oluşturmayı amaçlamaktadır. Kullanıcı dostu tasarımı ve modern arayüzüyle, kullanıcıların kolayca ürünlere erişmesini sağlar.  
+## Proje Özeti
+Bu web sitesi tasarımı, farklı dünya mutfaklarının fırın lezzetlerini bir araya getiren bir platform oluşturmayı amaçlamaktadır. Kullanıcı dostu tasarımı ve modern arayüzüyle, kullanıcıların kolayca ürünlere erişmesini sağlar. Fırın ürünlerini keşfetmek, sipariş vermek ve sevdiklerinizle paylaşmak isteyen herkes için ideal bir çözüm sunmaktadır. Kullanıcıların mobil, tablet veya masaüstü cihazlardan erişebileceği bu platform, her yaştan kullanıcıya hitap etmeyi hedeflemektedir.
 
-**Anahtar Kelimeler**  
-fırın, dünya mutfakları, kullanıcı deneyimi, tasarım  
+## Anahtar Kelimeler
+- Fırın
+- Dünya mutfakları
+- Kullanıcı deneyimi
+- Tasarım
 
-## I. GİRİŞ  
-Bu proje, farklı dünya mutfaklarından lezzetleri bir araya getiren ve kullanıcıların kolayca sipariş verebileceği bir web sitesi tasarlamayı amaçlamaktadır. Web sitesi, kullanıcı dostu bir arayüz, etkileyici görseller ve modern bir tasarım ile hazırlanmıştır.  
-Projenin temel hedefleri kullanıcıların çeşitli dünya mutfaklarını keşfetmelerini sağlamak ve modern bir e-ticaret platformu sunmaktır.
+---
 
-## II. KULLANIM KOLAYLIĞI  
+## I. Giriş
 
-### A. Şablon Seçimi  
-Bu proje için seçilen şablon, modern bir tasarım anlayışını yansıtmakta ve aşağıdaki kriterleri sağlamaktadır:  
+Bu proje, farklı dünya mutfaklarından fırın lezzetlerini bir araya getirerek, kullanıcıların kolayca sipariş verebileceği bir web sitesi tasarlamayı amaçlamaktadır. Web sitesi, kullanıcı dostu bir arayüz, etkileyici görseller ve modern bir tasarım ile hazırlanmıştır. Tasarımda kullanıcıların rahatlıkla gezinebileceği, ürünleri kolayca inceleyebileceği ve hızlıca sipariş verebileceği bir deneyim sunulmuştur.
 
-- **Responsive tasarım**: Web sitesi, masaüstü, tablet ve mobil cihazlarda sorunsuz bir şekilde çalışacak şekilde tasarlanmıştır. Bu, tüm kullanıcıların farklı cihazlardan siteye erişimini kolaylaştırmaktadır.  
-- **Önyüz**: Şablon, kullanıcı dostu bir arayüz içerir. Menü yapıları, kategori sayfaları ve sipariş süreçleri sade ve erişilebilir bir şekilde tasarlanmıştır.  
-- **Bootstrap**: Web sitesinin responsive tasarımı için temel CSS framework olarak kullanıldı.  
-- **Chart.js**: Grafiksel istatistikler için kullanıldı.  
+Projenin temel hedefleri:
+- Kullanıcıların çeşitli dünya mutfaklarını keşfetmelerini sağlamak
+- Kullanıcıların ürünleri kolayca bulabilmesi ve sipariş verebilmesi için modern bir e-ticaret platformu oluşturmak
+- Kullanıcı dostu bir arayüz tasarımı ile hızlı ve etkili bir alışveriş deneyimi sağlamak
 
-### B. Geliştirme Ortamı  
-- **Visual Studio Code**: Proje geliştirilirken Visual Studio Code IDE’si kullanılmıştır.  
-- **Canva**: Web sitesinin amblem tasarımı Canva kullanılarak yapılmıştır.
+---
 
-## III. TEKNİK UYGULAMA VE GELİŞTİRME 
-Bu projede hedeflenen amaç, kullanıcı dostu, işlevsel ve estetik açıdan göze hitap eden bir web sitesi tasarlamaktır. Web sitesinin tasarımı, belirlenen tüm isterlere uygun olarak gerçekleştirilmiş ve kullanıcıların siteyi etkili bir şekilde kullanabilmesi için gerekli tüm özellikler entegre edilmiştir.  
-Aşağıda bu isterlerin nasıl karşılandığı detaylı bir şekilde açıklanmıştır.  
+## II. Kullanım Kolaylığı
 
-### A. Ana Sayfa  
-- **Üst Menü**: Web sitesinin tüm sayfalarına erişim sağlayan bir navigasyon menüsü tasarlandı. Menüde Hakkımızda, Misyon-Vizyon, Ürünlerimiz, Birimlerimiz ve İletişim sayfalarına doğrudan erişim sağlanmaktadır.  
-- **Arka Yüz**: Yönetim paneli, veri yönetimi ve sipariş süreçlerinin kontrolü için güçlü bir altyapı sunar.  
-- **Grafikler ve Şekiller**: Web sitesinde, ürün satış verileri ve kullanıcı istatistiklerini görselleştirmek için grafikler yer almaktadır. Bu görseller, verilerin anlaşılmasını kolaylaştırmak için kullanılmıştır.  
+### A. Şablon Seçimi
+Bu proje için seçilen şablon, modern bir tasarım anlayışını yansıtmaktadır ve aşağıdaki özellikleri barındırmaktadır:
+- **Responsive Tasarım**: Web sitesi, masaüstü, tablet ve mobil cihazlarda sorunsuz bir şekilde çalışacak şekilde tasarlanmıştır. Bu, tüm kullanıcıların farklı cihazlardan siteye erişimini kolaylaştırmaktadır.
+- **Önyüz Tasarımı**: Şablon, kullanıcı dostu bir arayüz sunar. Menü yapıları, kategori sayfaları ve sipariş süreçleri sade ve erişilebilir bir şekilde tasarlanmıştır.
+- **Bootstrap**: Web sitesinin responsive tasarımı için temel CSS framework olarak Bootstrap kullanılmıştır.
+- **Chart.js**: Grafiksel istatistikler için kullanılmıştır. Bu, ürün satış verilerinin görselleştirilmesini sağlar.
 
-### B. Tasarım Standartlarının Korunması  
-Web sitesinin genel yapısında, hem görsel hem de işlevsel olarak tutarlı bir deneyim sağlanmıştır. Şablonun responsive yapısı, tüm cihazlarda aynı kullanıcı deneyimini sunmayı garanti etmiştir. Grafikler, veri analizine yönelik olarak entegre edilmiştir.
+### B. Geliştirme Ortamı
+- **IDE**: Visual Studio Code kullanılarak proje geliştirilmiştir. Kod yazımı ve düzenlemeleri bu IDE üzerinden yapılmıştır.
+- **Tasarım Aracı**: Web sitesinin amblem tasarımı için Canva kullanılmıştır.
 
-##  IV. PROJE İSTERLERİ VE KARŞILANMASI  
+---
 
-### A. Kullanılan Teknolojiler  
-- **HTML / CSS / JavaScript**: Web sitesinin temel yapısı ve stilizasyonu için kullanıldı.  
-- **Alt Menülerin Açılır Yapısı**: Ürünlerimiz, Tüm Ürünler, Ekmekler, Pastalar ve Kurabiyeler olmak üzere dört alt bölüme; Birimlerimiz ise Lojistik & Dağıtım, Müşteri Hizmetleri ve Üretim Birimi olmak üzere üç alt kategoriye ayrılmıştır.  
-- **Slider**: Ana sayfada kullanıcıların dikkatini çekmek ve ürünlerin tanıtımını etkin bir şekilde yapmak için üç farklı ürün için slider eklenmiştir. Bu sliderlar, kruvasan, bagel ve muffin gibi ana ürünleri temsil eder. Her slider, ürün tanıtım görselini içerir ve kullanıcılar, sliderdaki görsele tıkladıklarında ilgili ürünün detay sayfasına yönlendirilir.  
-- **Duyurular / Fırsatlar / Kampanyalar**: Ana sayfada, kullanıcıların dikkatini çekecek ve önemli bilgilere ulaşmasını sağlayacak bir "Duyurular" bölümü tasarlanmıştır. Bu alanda, duyuru başlıklarına tıklanarak yeni bir pencerede detaylar görüntülenir.  
-- **Yönetim Paneli**: Admin kullanıcıları için "Duyuru Ekle", "Duyuruyu Düzenle" ve "Duyuruyu Sil" butonları bulunur. Adminler bu butonlar aracılığıyla mevcut duyuruları yönetebilir ve yeni içerikler ekleyebilir.  
-  ![Fırın Ürünleri]("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKR9kP6rtcvhgBRKha4IDllqJfHM0BgLHspuATkKwEyNHgrZhy8gSrG6szfl6W2AtKtQ&usqp=CAU")
+## III. Teknik Uygulama ve Geliştirme
 
+Bu projede hedeflenen amaç, kullanıcı dostu, işlevsel ve estetik açıdan göze hitap eden bir web sitesi tasarlamaktır. Web sitesi tasarımı, kullanıcıların siteyi rahatça kullanabilmesi için gerekli tüm işlevsel özelliklere ve görsel estetiğe uygun olarak gerçekleştirilmiştir.
 
-### B. Alt Sayfalar  
-- **Hakkımızda ve Misyon & Vizyon Sayfaları**: Firma bilgileri ve hedeflerinin detaylıca belirtildiği sayfalar oluşturuldu.  
-- **Ürünlerimiz Sayfası**: Ürünler, kullanıcıların daha kolay ve hızlı bir şekilde erişebilmesi için farklı kategorilere ayrıldı ve her kategori altında ilgili ürünler detaylı olarak listelendi.  
-- **Birimlerimiz Sayfası**: Firma departmanları, kullanıcıların kolayca erişebilmesi için açılır alt menüler şeklinde listelenmiştir.  
-- **İletişim Sayfası**: Google Maps kullanılarak firmanın harita üzerindeki konumu gösterilmiştir. İletişim formu, şikayet ve öneri başlıklarıyla birlikte tasarlanmıştır.  
+### A. Ana Sayfa Özellikleri
+- **Üst Menü**: Web sitesinin tüm sayfalarına erişim sağlayan bir navigasyon menüsü tasarlanmıştır. Menüde "Hakkımızda", "Misyon-Vizyon", "Ürünlerimiz", "Birimlerimiz" ve "İletişim" sayfalarına doğrudan erişim sağlanmaktadır.
+- **Arka Yüz**: Yönetim paneli, veri yönetimi ve sipariş süreçlerinin kontrolü için güçlü bir altyapı sunar. Admin kullanıcıları, siparişleri yönetebilir ve gerekli verileri güncelleyebilir.
+- **Grafikler ve İstatistikler**: Web sitesinde ürün satış verileri ve kullanıcı istatistiklerini görselleştirmek için grafikler yer almaktadır. Bu görseller, verilerin anlaşılmasını kolaylaştırmak için kullanılmıştır.
+
+### B. Tasarım Standartlarının Korunması
+Web sitesinin genel yapısında, hem görsel hem de işlevsel olarak tutarlı bir deneyim sağlanmıştır. Kullanıcılar, herhangi bir cihazdan siteye girdiklerinde aynı deneyimi yaşarlar. Tasarımın responsive yapısı sayesinde, kullanıcılar masaüstü, tablet veya mobil cihazlarda aynı kullanıcı deneyimini elde ederler. Ayrıca, web sitesinde ürünlerle ilgili istatistiksel veriler görselleştirilmiş ve kullanıcıların ihtiyaç duyduğu bilgilere hızlıca ulaşabilmeleri sağlanmıştır.
+
+---
+
+## IV. Proje İsterleri ve Karşılanması
+
+### A. Kullanılan Teknolojiler
+- **HTML / CSS / JavaScript**: Web sitesinin temel yapısı ve stilizasyonu için bu teknolojiler kullanılmıştır.
+- **Alt Menü Yapısı**: Ürünlerimiz, Tüm Ürünler, Ekmekler, Pastalar ve Kurabiyeler gibi kategorilere ayrılmıştır. Ayrıca, "Birimlerimiz" alt menüsünde "Lojistik & Dağıtım", "Müşteri Hizmetleri" ve "Üretim Birimi" gibi alt kategoriler bulunmaktadır.
+- **Slider**: Ana sayfada, kullanıcıların dikkatini çekmek için ürün tanıtım sliderları eklenmiştir. Bu sliderlar, kruvasan, bagel ve muffin gibi popüler fırın ürünlerini temsil eder. Her slider, kullanıcıları ürünün detay sayfasına yönlendiren bağlantılar içerir.
+- **Duyurular ve Kampanyalar**: Ana sayfada, kullanıcıların dikkatini çekecek önemli duyurular ve kampanyalar için bir bölüm bulunmaktadır. Bu bölümdeki duyuru başlıklarına tıklandığında detaylı bilgiler kullanıcıya sunulur.
+- **Yönetim Paneli**: Adminler için "Duyuru Ekle", "Duyuruyu Düzenle" ve "Duyuruyu Sil" butonları bulunmaktadır. Adminler bu sayede mevcut duyuruları yönetebilir ve yeni içerikler ekleyebilir.
+
+---
+
+## V. Sonuç ve Gelecek Planları
+
+Bu proje, modern bir e-ticaret platformu sunarak kullanıcılara farklı dünya mutfaklarından fırın ürünlerini keşfetme ve sipariş verme imkanı tanımaktadır. Kullanıcı dostu arayüz ve hızlı işlem özellikleri ile web sitesi kullanıcı deneyimini ön planda tutmaktadır. Gelecekte, daha fazla ürün çeşidi eklenerek, kullanıcıların geniş bir yelpazeye sahip olmaları sağlanacaktır. Ayrıca, siteye entegre edilecek yeni özelliklerle kullanıcı deneyimi sürekli olarak iyileştirilecektir.
+
+---
+
 
